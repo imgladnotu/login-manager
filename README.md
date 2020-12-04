@@ -1,3 +1,6 @@
+# Modified login-manager to suit personal needs
+used code snippets from https://github.com/FascodeNet/lightdm-webkit2-theme-alter to restore/add basic background image functionality.
+
 # DEPRECATED
 This project will no longer be supported as the dependencies have been abandoned.
 
