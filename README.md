@@ -2,6 +2,9 @@
 used code snippets from https://github.com/FascodeNet/lightdm-webkit2-theme-alter to restore/add basic background image functionality.
 just replace `test.jpg` on line 12 of theme.css and place image in /images and `test2.jpg` on line 10 of splashscreen.css, also place image in /images
 
+**This Still Requires The Lightdm-Webkit2 greeter to use.**
+*clone/download as zip and copy to /usr/share/lightdm-webkit/themes and then accordingly edit your lightdm-webkit2-greeter.conf located in /etc/lightdm*
+
 # DEPRECATED
 This project will no longer be supported as the dependencies have been abandoned.
 
