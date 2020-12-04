@@ -9,8 +9,21 @@ body {
   flex-direction: column;
   color: white;
   background-color: #34495e;
-  /* background: radial-gradient(center, ellipse cover, #455a64 10%, #263238 100%); */
-  overflow: hidden;
+  background-image: url("../images/test.jpg");
+  background-position:center center;        
+  background-size: cover;
+  overflow: hidden;   
+}
+body::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  bottom: -5px;
+  left: -5px;
+  right: -5px;
+  background: inherit;
+  z-index: -1;
+  filter: blur(5px);
 }
 main {
   flex: 1 0 auto;
